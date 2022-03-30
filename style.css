@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: linear-gradient(45deg, rgb(30, 30, 114),blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 4%;
+    height: 300px;
+    width: 500px;
+}
+
+.inp{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(30, 30, 114);
+    height: 25px;
+    width: 250px;
+}
+
+#cep{
+    border: none;
+}
+
+button{
+    height: 20px;
+    width: 20px;
+}
+
+.bloco{
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+}
+
+.endereco{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3px;
+}
+
+.endereco input{
+    pointer-events: none;
+}
+
+input{
+    outline: none;
+}
